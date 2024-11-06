@@ -39,16 +39,21 @@
 // else
 //       { console.log (" you are too old, so you are not eligible" );}
 
-// let day = 3;
-// switch(day) {
-// case 1: 
-//      console.log ("MONDAY")
-//      break;
-// case 2: 
-//      console.log ("TUESDAY")
-//     break;
-
-// }
+let day = 3;
+switch(day) {
+case 1: 
+     console.log ("MONDAY")
+     break;
+case 2: 
+     console.log ("TUESDAY")
+    break;
+case 3:
+     console.log ("WEDNESDAY")
+    break;
+case 3:
+    console.log ("INVALID DAY")
+    break;
+}
 
 // function addAndlog(a, b){
 // console.log(a + b);
@@ -62,12 +67,20 @@
 
 // console.log (addAndlog (10 , 5);
 
-// let message = "HELLO"
-// const greetings =()=>
-    
-    const AREA = calculate(H , W) =>
-    return results= H * W;
-   
-    console.log (calculateArea (5,5));
+
+
+// function calculateArea(width, height) 
+// {
+//     const area = width * height;
+//     return area;
+// }
+
+// const width = 10;
+// const height = 5;
+// const result = calculateArea(width, height);
+
+// console.log("The area of the rectangle is " + result);
+
+
 
     
