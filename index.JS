@@ -81,6 +81,48 @@ case 3:
 
 // console.log("The area of the rectangle is " + result);
 
+//  ASIGNMENT 1. (calculating the area of a rectangle)
+function calculateArea(width, height) {
+    const area = width * height;
+    return area;
+}
+
+const width = 10;
+const height = 5;
+const result = calculateArea(width, height);
+console.log("The area of the rectangle is " + result);
+
+//  ASIGNMENT 2
+
+// Creating an array to hold book objects
+let books = [
+    { title: "To Kill a Mockingbird", author: "Harper Lee", yearPublished: 1960 },
+    { title: "1984", author: "George Orwell", yearPublished: 1949 }
+];
+
+// Function to add a new book to the array
+function addBook(newBook) {
+    books.push(newBook);
+}
+
+// Function to list all books in the array
+function listBooks() {
+    books.forEach((book, index) => {
+        console.log(`Book ${index + 1}:`);
+        console.log(`Title: ${book.title}`);
+        console.log(`Author: ${book.author}`);
+        console.log(`Year Published: ${book.yearPublished}`);
+        console.log('---');
+    });
+}
+
+// Adding a few books and list them
+addBook({ title: "The Great Gatsby", author: "F. Scott Fitzgerald", yearPublished: 1925 });
+addBook({ title: "Pride and Prejudice", author: "Jane Austen", yearPublished: 1813 });
+
+// List all books
+listBooks();
+
 
 
     
